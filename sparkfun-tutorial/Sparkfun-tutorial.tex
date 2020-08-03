@@ -1,0 +1,139 @@
+\documentclass{article}%
+\usepackage{amsmath}%
+\usepackage{amsfonts}%
+\usepackage{amssymb}%
+\usepackage{graphicx}
+\usepackage[shortlabels]{enumitem}
+\usepackage{hyperref}
+
+% Custom Font
+\usepackage{mathptmx}
+
+% for double figures
+\usepackage{caption}
+\usepackage{subcaption}
+
+% Appendix Formatting
+\usepackage{appendix}
+\appendixtitleon % Appendix Title On
+\appendixtitletocon % Appendix TOC Title On
+
+% Listings code
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+% enviroment for code
+\lstset{frame=tb,
+  language=java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+%-------------------------------------------
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newenvironment{proof}[1][Proof]{\textbf{#1.} }{\ \rule{0.5em}{0.5em}}
+\setlength{\textwidth}{7.0in}
+\setlength{\oddsidemargin}{-0.35in}
+\setlength{\topmargin}{-0.5in}
+\setlength{\textheight}{9.0in}
+\setlength{\parindent}{0.3in}
+
+
+%% THEO: Custom Quote Blocks
+%\usepackage{showframe,lipsum}
+\usepackage[most]{tcolorbox}
+\definecolor{block-gray}{gray}{0.85}
+\newtcolorbox{myquote}{colback=block-gray,grow to right by=-10mm,grow to left by=-10mm,
+boxrule=0pt,boxsep=0pt,breakable}
+
+\begin{document}
+\title{UBlox C099-F9P GPS-RTK Demo Setup Instructions}
+\author{Theodore Stangebye, Dr. Timothy Mohr\\
+Grove City College\\
+\texttt{\{stangebyeto1,mohrta\}@gcc.edu}}
+\maketitle
+%\begin{flushright}
+%\textbf{Theo Stangebye}
+%\end{flushright}
+
+
+%\begin{center}
+%\textbf{} \\
+%\end{center}
+
+
+%%%%%%%%%%%%%%%%%% START
+
+%\begin{center}
+%	\includegraphics[scale=.5]{./imgs/img0.png}
+%\end{center}
+
+% Center table of contents on first page.
+\vspace*{\fill}
+\tableofcontents
+\vspace*{\fill}
+
+\newpage
+
+\section{Introduction}
+
+\begin{itemize}
+	\item Hardware Setup Overview: design methodology - explain the different pieces on the two boards briefly.
+	\item Explain code.
+	\item Block diagram
+	\item Requirements: Libraries, radiohead, ublox, SAMD pro RF libs, also the screen library.
+	\item Refrences:
+	\begin{itemize}
+		\item Basis for delimiting certain RTCM Messages for F9P \url{https://www.ardusimple.com/configuration-files/}
+		\item Radiohead docs \url{https://www.airspayce.com/mikem/arduino/RadioHead/classRH__RF95.html#details}
+		\item 
+	\end{itemize}
+\end{itemize}
+
+
+
+\
+
+%\appendix
+\begin{appendices}
+
+
+\section{}
+\end{appendices}
+
+\end{document}

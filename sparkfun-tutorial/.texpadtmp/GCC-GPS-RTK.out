@@ -1,0 +1,17 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{References}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Board Components \046 Descriptions}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Preliminary Setup}{section.1}% 4
+\BOOKMARK [1][-]{section.2}{Base Station GPS Setup}{}% 5
+\BOOKMARK [2][-]{subsection.2.1}{Base Station Mechanicals}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.2}{Reset Base Station ODIN-W2 to Known State}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.3}{Base Station ODIN-W2 Configuration}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.4}{Base Station F9P Configuration}{section.2}% 9
+\BOOKMARK [1][-]{section.3}{Rover GPS Setup}{}% 10
+\BOOKMARK [2][-]{subsection.3.1}{Rover Mechanicals}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.2}{Reset Rover ODIN-W2 to a Known State}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.3}{Rover ODIN-W2 Configuration}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.4}{Rover F9P Configuration}{section.3}% 14
+\BOOKMARK [1][-]{section.4}{Test}{}% 15
+\BOOKMARK [1][-]{appendix.A}{ODIN-W2 Firmware Upgrade}{}% 16
+\BOOKMARK [1][-]{appendix.B}{List of Terms}{}% 17
