@@ -392,7 +392,7 @@ Fixed solution.
 
 Block Diagram
 =============
-See the [Block Diagram Here](https://github.com/gcc-ant-robot/sparkfun-gps/blob/master/sparkfun-tutorial/bdiagram.pdf)
+See the [Block Diagram Here](https://github.com/gcc-ant-robot/sparkfun-gps/blob/master/sparkfun-tutorial/imgs/bdiagram.pdf)
 
 References
 ==========
