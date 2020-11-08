@@ -413,6 +413,10 @@ References
 -   Radiohead Documentation for RFM95:
     <https://www.airspayce.com/mikem/arduino/RadioHead/classRH__RF95.html#details>
 
+-   Special Thanks to the following projects, without which our GPS-RTK prototype would not work:
+	- Ktrussell's: Serial_to_Lora: https://github.com/ktrussell/Serial_to_LoRa
+	- Sparkfun Ublox Arduino Library: https://github.com/sparkfun/SparkFun_Ublox_Arduino_Library
+
 Index of Terms
 ==============
 
