@@ -126,6 +126,9 @@ void loop() {
             bufptr += rfbuflen;
             lastTime = millis(); // last time we got a packet...
 
+            // Special thanks to ktrussell's Serial_to_Lora project, on which our packetization code is based:
+            // https://github.com/ktrussell/Serial_to_LoRa
+
             while(((millis()-lastTime) < RFWAITTIME) && ((bufptr-buf) < (BUFLEN-RH_RF95_MAX_MESSAGE_LEN))) {
                 // here we're waiting to see if we get more lora packets in this burst.  the transmitter times out every 500 ms, or if we run out of space, then we have to push stuff to the array
                 if (rf95.available()) {

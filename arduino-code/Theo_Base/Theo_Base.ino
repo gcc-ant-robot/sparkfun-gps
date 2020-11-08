@@ -234,6 +234,9 @@ uint8_t * ptr;
 
 void loop() {
 	
+	// Special thanks to ktrussell's Serial_to_Lora project, on which packetization code is based:
+	// https://github.com/ktrussell/Serial_to_LoRa
+
 	while (!Serial1.available());
 
 	if (Serial1.available()) {
